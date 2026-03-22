@@ -65,6 +65,11 @@
         100% { left: 150%; }
       }
 
+      @keyframes glow {
+        0%, 100% { filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.4)); }
+        50% { filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.8)); }
+      }
+
       .animate-searching {
         animation: searching 6s ease-in-out infinite;
       }
@@ -77,6 +82,10 @@
         animation: glint 3.5s linear infinite;
       }
 
+      .animate-glow {
+        animation: glow 2s ease-in-out infinite;
+      }
+
       .scrollbar-hide::-webkit-scrollbar {
         display: none;
       }
@@ -86,7 +95,6 @@
       }
     </style>
 
-<link rel="stylesheet" href="/index.css">
   <script type="importmap">
 {
   "imports": {
@@ -98,9 +106,9 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="./assets/index-KDVF0vuD.js"></script>
+  <script type="module" crossorigin src="./assets/index-CASJRUfV.js"></script>
 </head>
   <body>
     <div id="root"></div>
-</body>
+  </body>
 </html>
