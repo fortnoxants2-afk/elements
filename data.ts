@@ -695,13 +695,18 @@ const yazikQuestions: Question[] = [
     category: 'yazik',
     imageUrl: "Figma/kategoriya/yazik/03_yazik.png"
   },
-  {
+{
     id: 602,
     text: "Как по-чувашски будет «мальчик»?",
-    options: { a: "А) арçын", b: "Б) ача", c: "В) маçак", d: "Г) шăллăм" },
+    options: { a: "А) атте", b: "Б) ача", c: "В) асатте", d: "Г) шăллăм" },
     correctAnswer: 'b',
     category: 'yazik',
-    imageUrl: "Figma/kategoriya/yazik/03_yazik.png"
+    imageUrl: "yazik/03_yazik.webp",
+    audioUrls: {
+      a: "https://raw.githubusercontent.com/fortnoxants2-afk/elements/main/Figma/sounds/chuvash/audio_%D0%B0%D1%82%D1%82%D0%B5.MP3",
+      b: "https://raw.githubusercontent.com/fortnoxants2-afk/elements/main/Figma/sounds/chuvash/audio_%D0%B0%D1%87%D0%B0.MP3",
+      c: "https://raw.githubusercontent.com/fortnoxants2-afk/elements/main/Figma/sounds/chuvash/audio_%D0%B0%D1%81%D0%B0%D1%82%D1%82%D0%B5.MP3",
+      d: "https://raw.githubusercontent.com/fortnoxants2-afk/elements/main/Figma/sounds/chuvash/audio_%D1%88%C4%83%D0%BB%D0%BB%C4%83%D0%BC.MP3"
   },
   {
     id: 603,
