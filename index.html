@@ -33,7 +33,7 @@
 
       .app-screen-container {
         background-color: #9ec4af;
-        background-image: url('https://raw.githubusercontent.com/fortnoxants2-afk/elements/main/Figma/main/BG_01.jpg');
+        background-image: url('https://raw.githubusercontent.com/fortnoxants2-afk/elements/main/Figma/main/BG_02.webp');
         background-size: 100% 100%;
         background-position: center;
         background-repeat: no-repeat;
@@ -82,8 +82,17 @@
         animation: glint 3.5s linear infinite;
       }
 
-      .animate-glow {
-        animation: glow 2s ease-in-out infinite;
+      @keyframes sound-scale-pulse {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.12); }
+      }
+
+      .animate-sound-pulse {
+        animation: sound-scale-pulse 0.7s ease-in-out infinite;
+      }
+
+      * {
+        -webkit-tap-highlight-color: transparent;
       }
 
       .scrollbar-hide::-webkit-scrollbar {
@@ -106,7 +115,7 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="./assets/index-DDjDxseb.js"></script>
+  <script type="module" crossorigin src="./assets/index-DXdDK3LP.js"></script>
 </head>
   <body>
     <div id="root"></div>
